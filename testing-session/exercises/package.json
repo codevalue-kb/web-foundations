@@ -1,0 +1,19 @@
+{
+  "name": "unit-testing-exercises",
+  "version": "1.0.0",
+  "description": "Beginner unit testing exercises using Jest",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ex1": "jest 01-calculator",
+    "test:ex2": "jest 02-string-utils",
+    "test:ex3": "jest 03-array-utils",
+    "test:ex4": "jest 04-password-validator",
+    "test:ex5": "jest 05-shopping-cart",
+    "test:ex6": "jest 06-grade-calculator"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
